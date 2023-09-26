@@ -1,0 +1,84 @@
+/* Basic Styles */
+body {
+    background-color: lightseagreen;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 2;
+    padding: 5;
+}
+
+header {
+    background-color: #d41616;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: orangered;
+    text-align: center;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Portfolio Styles */
+#portfolio {
+    text-align: center;
+    padding: 30px;
+}
+
+article {
+    display: inline-block;
+    margin: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+figcaption {
+    font-style: Times New Roman;
+}
+
+/* Contact Form Styles */
+#contact {
+    text-align: center;
+    padding: 30px;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+}
+
+label, input, textarea {
+    display: block;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 20px 30px;
+    cursor: pointer;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
